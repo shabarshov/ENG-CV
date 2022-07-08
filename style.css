@@ -1,0 +1,111 @@
+.bg-green {
+    background-color: #c5f9d7;
+}
+
+.bg-blue {
+    background-color: #8bd4f9;
+}
+
+.bg-red {
+    background-color: #fcaaaa;
+}
+
+body {
+    background-color: #fff6ed;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.container {
+    max-width: 950px;
+    margin: auto;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 36px;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 28 px;
+    margin: auto;
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    font-family: inherit;
+    font-size: 20px;
+}
+
+div {
+    font-family: inherit;
+    font-size: 20px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    color: #0000ff;
+}
+
+.about-me {
+    position: static;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 25px;
+}
+
+.about-me-text {
+    margin-left: 20px;
+}
+
+.avatar {
+    width: 300px;
+}
+
+.card {
+    padding-top: 15px;
+    padding-right: 20px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    border-radius: 30px;
+    margin-bottom: 20px;
+}
+
+.table {
+    width: 100%;
+}
+
+.table td {
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+
+@media (max-width: 700px) {
+    .about-me {
+        display: block;
+        text-align: center;
+    }
+}
+
+@media (max-width: 800px) {
+    .table td {
+        display: flex;
+        text-align: none;
+    }
+
+    .table tr {
+        display: block;
+        margin-bottom: 25px;
+    }
+}
